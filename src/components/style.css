@@ -1,0 +1,148 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.header {
+  height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.header-1 {
+  flex: 1;
+}
+.header-2 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signinbtn {
+  border-radius: 10px;
+  border: 1px solid rgba(45, 104, 212, 0.76);
+  padding: 30% 50%;
+  background-color: white;
+  font-size: medium;
+  color: rgba(35, 82, 168, 0.76);
+  font-weight: bold;
+}
+.signinbtn:hover {
+  background-color: rgb(228, 228, 228);
+  font-weight: 900;
+  border: 2px solid rgba(22, 55, 117, 0.76);
+   cursor: pointer;
+}
+.nav{
+    flex:.8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+
+}   
+.icon{
+    color:rgba(93, 93, 97, 0.76);
+    font-size:20px
+}
+.btn-context{
+    color:rgb(163, 158, 158);
+    text-decoration: none;
+    
+}
+.job,.notify,.profile,.landing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(92, 90, 90);
+    font-family:monospace;
+    font-size: 50px;
+    font-weight: bolder;
+    height: 88vh;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    gap:10%;
+    align-items: center;
+    justify-content: center;
+    color:rgb(92, 90, 90);
+    font-family:monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    height: 88vh;
+}
+.signin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+
+}
+
+/* Sing in page */
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    width: 25%;
+  border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(189, 182, 182, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .list-container {
+    display: flex;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+  }
+  input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(110, 108, 108, 0.2);
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #5579db;
+  border: 1px solid #3161a8;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background: #303ace;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+.post-ele{
+    background-color: rgb(231, 230, 230);
+    padding:30px;
+    width: 70%;
+    text-align: center;
+    border:1px solid rgb(224, 222, 222);
+border-radius: 20px;
+cursor: pointer;
+    
+}
